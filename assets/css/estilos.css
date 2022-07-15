@@ -1,0 +1,172 @@
+*{
+    margin:0px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+h4{
+font-size: 20px;
+color: #fff;
+letter-spacing: 1px;
+}
+
+h2{
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Bangers';
+    text-align: center;
+}
+
+i{
+    color: #fff;
+}
+
+.padre{
+background: url(../img/billetes.jpg);
+background-position: center;
+background-attachment: contain;
+background-size: cover;
+display: flex;
+flex-flow: column nowrap;
+}
+
+    .header{
+        display: flex;
+        flex-flow: column nowrap ;
+    }
+        .menu{
+            background: rgba(0,0,0,.1);
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
+            border: 1px solid rgba(255,255,255,.5);
+            font-weight: bold;
+            }
+
+            .logo{
+                flex: 1 1 auto;
+            }
+                .logo a{
+                    color:#fff;
+                    text-decoration: none;
+                    font-size: 60px;
+                    letter-spacing: 2px;
+                    font-family: 'Bangers', cursive;
+                }
+                
+            .nav{
+               flex: 6 1 auto;  
+               font-family: 'Bangers'    
+            }
+                .nav a{
+                    color:#fff;
+                    text-decoration: none;
+                    font-size: 20px;
+                    padding: 0 30px;
+                    letter-spacing: 2px;
+                }
+                .nav a:hover {
+                    color:#343434;
+                }
+
+            .social{
+                flex: 0 1 auto;     
+                display: flex;                 
+            }
+                .social a{
+                    color:#fff;
+                    text-decoration: none;
+                    font-size: 45px;
+                    padding: 0 5px;
+                }
+                .social a:hover {
+                    color:#343434;
+                }
+
+        .dolar{
+            background: #1A4D2E;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 40px;
+            align-items: center;
+            border: 1px solid rgba(255,255,255,.5)
+            
+        }    
+            .cotizacion{
+                flex: 1 1 auto; 
+                display: flex;
+                flex-flow: row;
+                height: 50px;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+            }   
+            .cotizacionCompra{
+                flex: 3 1 auto; 
+                display: flex;
+                flex-flow: row;
+                height: 50px;
+                align-items: center;
+                justify-content:center;
+                font-weight: bold;
+            }   
+                .cotcompra{
+                    color: green;
+                    font-size: 25px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    margin-top: 7px;
+                    padding: 5px; 
+                }
+            .cotizacionVenta{
+                flex: 3 1 auto; 
+                display: flex;
+                flex-flow: row;
+                height: 50px;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+            }
+                .cotventa{
+                    color: red;
+                    font-size: 25px;
+                    font-weight: bold;   
+                    letter-spacing: 1px;  
+                    margin-top: 7px;      
+                    padding: 5px;         
+                }
+
+    .container{
+        display: center;
+        background: rgba(0,0,0,.6);
+        
+    }
+
+    .footer{
+        justify-content:left;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        background: rgba(0,0,0,.2);
+    }
+
+label{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.form-text{
+    color:#fff;
+    font-size: 15px;
+    
+}
+
+#resultado{
+    font-weight: bold;
+    font-size: 15px;
+    background-color: black;
+    color: #fff;
+}
